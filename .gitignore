@@ -1,0 +1,16 @@
+# Local extracted microscopy data, model weights and generated analyses
+data/
+outputs/
+results/
+checkpoints/
+*.npy
+*.npz
+*.pt
+*.pth
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store

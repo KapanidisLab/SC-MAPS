@@ -1,0 +1,14 @@
+# Research packages used by the original SC-MAPS scripts.
+# Install compatible torch/torchvision pair for your operating system/CUDA version.
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+torch
+torchvision
+albumentations
+optuna
+umap-learn
+tqdm
+ipython
