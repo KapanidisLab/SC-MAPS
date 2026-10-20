@@ -168,13 +168,4 @@ These are exploratory/supplementary; the original four-class specialist did **no
 - Training scripts save model checkpoints (`*.pt`), training histories, metrics and holdout predictions to the output directories configured **within each script**. Do not assume they will land next to the script in this repository.
 - `analysis` and `evaluation` are **downstream** of the appropriate checkpoints or saved `*.csv`/`*.npz` outputs. Merely having both ZIP datasets does not eliminate the need to train or supply those checkpoints.
 - Keep true `cell_id`, `sample_id`, strain and independent-holdout membership when comparing results; check column names before using saved CSVs from different model runs.
-- The two datasets, model files and existing prediction files were **not supplied** with `Python.zip`; end-to-end reproduction against those full files has not been verified in this code-only release.
-- **Missing from this upload:** a clearly identifiable standalone trainer of the primary 13-species DenseNet121 *concatenation* model and the exact published open-set/OOD evaluation program. Add their original files when available, without substituting a new implementation.
 
-## 6. Deduplication performed
-
-The supplied `Python.zip` contained 16 `.py` files, **none of which were byte-for-byte identical**. Only one very closely overlapping *alternative specialist* version was left out to reduce clutter:
-
-`Train_secondary_confusion_specialist_from_fusion_ARC_CONSERVATIVE.py` — largely overlaps the corrected KLAE/KLPN pairwise specialist implementation, though the two are **not identical**. The original four-class specialist and corrected pairwise specialist were both retained because they represent different experiments. The excluded file is still present in the original supplied `Python.zip` should historical audit require it.
-
-Every one of the 15 included `.py` files is exactly the same file content as its counterpart in `Python.zip`; the source filenames have not been changed. All `.py` sources have been syntax-compiled, **not** run against full model checkpoints or microscopy data.
