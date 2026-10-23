@@ -27,7 +27,10 @@ SCMAPS_GitHub_Organised/
 
 ## 1. Obtain the two datasets
 
-Download the data **separately from Zenodo**, once the two public records are available:
+Download the data **separately from ORA** here:
+
+https://dx.doi.org/10.5287/ora-nz5e6m1bw
+
 
 | Archive | Content | Where it is used |
 |---|---|---|
