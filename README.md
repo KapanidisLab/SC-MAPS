@@ -37,8 +37,6 @@ https://dx.doi.org/10.5287/ora-nz5e6m1bw
 | `Trillian_DATASET_with_holdout.zip` | The main 13-species SC-MAPS dataset, including per-cell five-channel `.npy` stacks, `cell_manifest.csv` and `splits/*.csv` | All training, independent-strain evaluation and polymicrobial analyses |
 | `SC_MAPS_NOVEL_SPECIES_SINGLE_CELL_DATASET*.zip` | Five unseen species (`BSB`, `EF`, `EFM`, `HFLU`, `LMON`) | Unseen-organism forced predictions, feature extraction and UMAP analyses |
 
-- **Main dataset Zenodo:** *Insert public DOI/download URL before publishing.*
-- **Five-species Zenodo:** *Insert public DOI/download URL before publishing.*
 
 > Neither of the large dataset archives is included in this code ZIP. The five extra species must **not** be mixed with model-development data.
 
